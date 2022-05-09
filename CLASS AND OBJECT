@@ -1,0 +1,29 @@
+// Here we creating a simple calculation by using class,objectand method
+class Calc
+{
+int num1;
+int num2;
+int result;
+
+//Creating a method
+public void perform()
+{
+result=num1+num2;
+}
+}
+
+//creating a object for the class in main function
+
+public class objectDemo
+{
+public static void main(String[] args)
+{
+Calc obj=new Calc();
+obj.num1=3;
+obj.num2=5;
+obj.perform();
+System.out.println(obj.result);
+}
+}
+
+//output:8
